@@ -1,0 +1,134 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #e7e7e7;
+}
+
+
+h1{
+    font-family: 'Anton', sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+header{
+    width: 100%;
+    max-width: 800px;
+    text-align: center;
+    display: flex;
+    margin: 40px 0 0 0;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding: 5px;
+    justify-content: center;
+    align-items: baseline;
+}
+form{
+    margin-bottom: 30px;
+    width: 100%;
+    max-width: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+form input, button{
+    width: 50%;
+    padding: 8px;
+    margin: 0 2px;
+}
+button{
+
+    width: 20%;
+    cursor: pointer;
+    background-color: rgb(71, 134, 8);
+    color: #fff;
+    border: 0;
+    font-size: 1rem;
+}
+header img{
+    margin-right: 10px;
+    width: 100%;
+    max-width: 40px;
+    height: 40px;
+
+}
+
+
+table img{
+    width: 100%;
+    max-width: 25px;
+}
+table{
+max-width: 800px;
+ width: 100%;
+border-style: hidden;
+}
+table, thead, td, th{
+    border-style: hidden;
+}
+
+
+table tr{
+    padding: 8px;
+}
+     th {
+    text-align: center;
+    padding: 5px;
+    border-bottom-style: solid;
+    border-bottom-color: #000;
+    border-width: 1.5px;
+}
+td {
+    text-align: center;
+    padding: 10px;
+    border-bottom-style: solid;
+    border-bottom-color: #747474;
+    border-width: 1.5px;
+}
+tfoot td{
+    border-bottom-color: #000;
+}
+
+.reprovado, .aprovado{
+    background-color: red;
+    border-radius: 4px;
+    color: #fff;
+}
+
+
+.aprovado{
+    background-color: green;
+}
+
+#resultado{
+    padding: 6px;
+    color: #fff;
+
+}
+.materiaExistente{
+    display: none;
+    color: red;
+    max-width: 800px;
+    margin-bottom: 10px;
+    text-align: center;
+    padding: 5px;
+    width: 100%;
+    border: 1px solid red;
+}
